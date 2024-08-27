@@ -11,8 +11,9 @@ void draw(){
   ellipse(50, 50, 80, 20);
   noStroke();
   triangle(50, 25, 20, 70, 80, 70);
-  circle(43, 12, 3);
-  circle(57, 12, 3);
+  fill(0,0,0);
+  ellipse(43, 12, 4.5, 4.5);
+  ellipse(57, 12, 4.5, 4.5);
   fill(255,255,0);
   triangle(43, 20, 57, 20, 50, 35);
   rect(35, 70, 10, 20);
